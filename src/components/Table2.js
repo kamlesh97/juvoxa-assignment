@@ -82,11 +82,12 @@ export const Table2 = () => {
             </table>  
 
 
-        <Pagination
+            <div className='page_no'>
+            <Pagination
         postPerPage={postPerPage}
         totalPost={posts.length}
         paginate={paginate}
-      />   
+      />        </div>   
         </div>
     )
 }

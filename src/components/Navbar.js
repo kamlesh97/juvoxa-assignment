@@ -8,20 +8,20 @@ const Navbar = () => {
           <li>
             <a href="#">
               <span className='home'> 
-                Unlu<i class="fas fa-home"></i>Class
+                Juvoxa<i class="fas fa-home"></i>
               </span>
             </a>
           </li>
 
           <li>
             <a href="#about">
-              <span>ABOUT</span> <i class="far fa-address-card"></i>{" "}
+              <span>Table1</span> <i class="far fa-address-card"></i>{" "}
             </a>
           </li>
 
           <li>
             <a href="#skills">
-              <span>Blogs</span> <i class="fas fa-laptop-code"></i>{" "}
+              <span>Table2</span> <i class="fas fa-laptop-code"></i>{" "}
             </a>
           </li>
         </ul>

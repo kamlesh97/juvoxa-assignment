@@ -2,6 +2,7 @@
 * {
   font-family: "Chela One", cursive;
   color: #04AA6D;
+  
 }
 body {
   margin: 0;
@@ -58,4 +59,37 @@ code {
 
 .text-center {
   text-align: end;
+}
+
+
+
+.page {
+  /* margin: auto; */
+  /* text-align: center; */
+  margin-left: 50vw;
+
+  display: flex;
+  /* justify-content: space-between; */
+}
+.page-no {
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #04AA6D;
+}
+
+a:active a:visited {
+  color: greenyellow;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: greenyellow;
+  border-bottom: 2px solid #04AA6D;
 }
