@@ -75,9 +75,15 @@ code {
   font-size: 25px;
   letter-spacing: 3px;
   padding: 20px;
+  border: 1px dotted green;
+  border-radius: 10px;
 }
 
-
+.home{
+  margin-left: -82vw;
+  color: #f2f2f2;
+  /* text-align: left; */
+}
 
 a {
   text-decoration: none;
@@ -92,4 +98,9 @@ a:hover {
   text-decoration: underline;
   color: greenyellow;
   border-bottom: 2px solid #04AA6D;
+}
+
+
+.page-no:hover{
+  border: 1px double #04AA6D; 
 }
